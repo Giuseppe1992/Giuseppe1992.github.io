@@ -18,7 +18,7 @@ export default function TalkCard({talkDetails}) {
             <a href={talkDetails.slides_url} target="_" className="talk-button">
               Slides
             </a>
-            <a href={talkDetails.event_url} target="_" className="talk-button">
+            <a href={talkDetails.event_url} target="_" class="talk-button">
               Event
             </a>
           </div>

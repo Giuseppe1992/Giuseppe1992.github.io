@@ -1,7 +1,7 @@
 ﻿
 /* Change this file to get your personal Portfolio */
 
-// Summary And Greeting Section
+// Your Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
 
@@ -153,10 +153,11 @@ const workExperiences = {
       company: "Orange Labs",
       companylogo: require("./assets/images/orangeLogo.jpg"),
       date: "April 2018 – March 2021",
-      desc: "Bla bla bla.",
+      desc: "The objective is to develop a resilience methodology in an NFV and SDN environment linking theoretical results to industrial implementation.",
       descBullets: [
-        "Bla bla bla.",
-        "Bla bla bla."
+        "Created Distrinet, a distributed emulator for NFV and SDN networks.",
+        "Developed resilience methodologies for NFV and SDN environment in 5G networks, able to reduce resource consumptions by up to 40%",
+        "Created CloudMeasurement, a simple CLI orchestrator for network experiments (Iperf, Traceroute, etc.) for cloud environments"
       ]
     },
     {
@@ -164,10 +165,10 @@ const workExperiences = {
       company: "Inria",
       companylogo: require("./assets/images/inriaLogo.jpeg"),
       date: "Dec 2016 – Aug 2017",
-      desc: "Bla bla bla.",
+      desc: "Internship experience during my Master's degree in Computer Science at University of Nice, Sophia Antipolis (France)",
       descBullets: [
-        "Bla bla bla.",
-        "Bla bla bla."
+        "Extend OpenStack to provide robust Service Function Chains (SFC).",
+        "Overview classical Scheduling problem and present typical data center architectures. Formalize a model for Scheduling with Communication Problem."
       ]
     },
     {
@@ -175,7 +176,11 @@ const workExperiences = {
       company: "Intecs",
       companylogo: require("./assets/images/intecsLogo.png"),
       date: "Aug 2014 – Sep 2014",
-      desc: "."
+      desc: "First internship experience during my Bachelor's degree in Computer Science at University of L'Aquila (Italy)",
+      descBullets: [
+        "Study and installation of a cloud infrastructure with OpenStack.",
+        "Configuration of OpenStack in a testing environment with VirtualBox and Ubuntu"
+      ]
     },
   ]
 };
@@ -193,16 +198,17 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "OpenSource Projects",
   subtitle: "SOME PROJECTS THAT I ACTIVELY MAINTAIN",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/Distrinet.png"),
+      link: "https://distrinet-emu.github.io"
+
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/cm.png"),
+      link: "https://github.com/Giuseppe1992/CloudMeasurement/blob/master/README.md"
     }
   ]
 };
@@ -217,30 +223,18 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "AWS solution Architect",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "AWS Certified Solution Architect - Associate [SAA-C02]",
+      subtitle: "Individuals who have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on Amazon Web Services.",
+      image: require("./assets/images/aws_sol_arch.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "https://www.youracclaim.com/badges/71e2ce30-2162-487c-9e89-422c4cbeac70" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
+      title: "Azure Fundamentals [AZ-900]",
+      subtitle: "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      image: require("./assets/images/azure_fundamentals.png"),
+      footerLink: [{ name: "Certification", url: "http://1.1.1.1" }]
     }
   ]
 };
@@ -270,17 +264,29 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  title: "Publications",
+  subtitle: emoji("SOME INTERNATIONAL PAPER AND DEMOS"),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Bandwidth optimal Failure Recovery Scheme for Robust Programmable Networks.",
+      subtitle: "IEEE International Conference on Cloud Networking, Coimbra, Portugal, 2019",
+      slides_url: "https://ieeexplore.ieee.org/document/9064126",
+      event_url: "https://cloudnet2019.ieee-cloudnet.org"
+    },
+    {
+      title: "Demo Proposal - Distrinet: a Mininet implementation for the Cloud.",
+      subtitle: "International Conference on emerging Networking EXperiments and Technologies, CoNEXT 2019, Florida, Orlando, USA, 2019",
+      slides_url: "https://www.researchgate.net/publication/337575635_Demo_Proposal_-_Distrinet_a_Mininet_implementation_for_the_Cloud",
+      event_url: "https://conferences2.sigcomm.org/co-next/2019/#!/home"
+    },
+    {
+      title: "Short - Mininet on steroids: exploiting the cloud for Mininet performance.",
+      subtitle: "IEEE International Conference on Cloud Networking, Coimbra, Portugal, 2019",
+      slides_url: "https://ieeexplore.ieee.org/document/9064129",
+      event_url: "https://cloudnet2019.ieee-cloudnet.org"
     }
-  ],
+    ],
   display: true // Set false to hide this section, defaults to true
 };
 
