@@ -263,8 +263,8 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  title: emoji("Contact Me ☎️ +33 (0)786376988"),
+  subtitle: emoji("Discuss a project or just want to say hi? ☎️ +33 (0)786376988"),
   number: "+33-(0)786376988",
   email_address: "giuseppedilena92@gmail.com"
 };
