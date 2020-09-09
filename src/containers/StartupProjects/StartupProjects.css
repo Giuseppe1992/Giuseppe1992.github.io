@@ -3,8 +3,8 @@
 }
 
 .git-image-div > img {
-  max-width: 60%;
-  height: auto;
+  width: auto;
+  max-height: 7cm;
 }
 
 .startup-projects-main > * {
