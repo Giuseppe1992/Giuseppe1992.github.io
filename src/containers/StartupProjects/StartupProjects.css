@@ -2,6 +2,11 @@
   display: flex;
 }
 
+.git-image-div > img {
+  max-width: 60%;
+  height: auto;
+}
+
 .startup-projects-main > * {
   flex: 1;
   margin-bottom: 30px;

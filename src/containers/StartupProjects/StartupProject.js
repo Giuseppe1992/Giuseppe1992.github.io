@@ -15,7 +15,11 @@ export default function StartupProject() {
       <div>
         <h1 className="skills-heading">{bigProjects.title}</h1>
         <p className="subTitle project-subtitle">{bigProjects.subtitle}</p>
+        <div className="git-image-div">
+          <img alt="sitting on github" src={require("../../assets/images/github.svg")}></img>
+        </div>
         <div className="startup-projects-main">
+
           <div className="startup-project-text">
             {bigProjects.projects.map(project => {
               return (
