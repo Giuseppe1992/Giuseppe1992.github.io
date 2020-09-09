@@ -119,7 +119,7 @@ const workExperiences = {
       date: "April 2018 – March 2021",
       desc: "The objective is to develop a resilience methodology in an NFV and SDN environment linking theoretical results to industrial implementation.",
       descBullets: [
-        "Created Distrinet, a distributed emulator for NFV and SDN networks.",
+        "Created Distrinet, a distributed emulator for NFV and SDN networks",
         "Developed resilience methodologies for NFV and SDN environment in 5G networks, able to reduce resource consumptions by up to 40%",
         "Created CloudMeasurement, a simple CLI orchestrator for network experiments (Iperf, Traceroute, etc.) for cloud environments"
       ]
@@ -131,8 +131,8 @@ const workExperiences = {
       date: "Dec 2016 – Aug 2017",
       desc: "Internship experience during my Master's degree in Computer Science at University of Nice, Sophia Antipolis (France)",
       descBullets: [
-        "Extend OpenStack to provide robust Service Function Chains (SFC).",
-        "Overview classical Scheduling problem and present typical data center architectures. Formalize a model for Scheduling with Communication Problem."
+        "Extend OpenStack to provide robust Service Function Chains (SFC)",
+        "Overview classical Scheduling problem and present typical data center architectures. Formalize a model for Scheduling with Communication Problem"
       ]
     },
     {
@@ -142,7 +142,7 @@ const workExperiences = {
       date: "Aug 2014 – Sep 2014",
       desc: "First internship experience during my Bachelor's degree in Computer Science at University of L'Aquila (Italy)",
       descBullets: [
-        "Study and installation of a cloud infrastructure with OpenStack.",
+        "Study and installation of a cloud infrastructure with OpenStack",
         "Configuration of OpenStack in a testing environment with VirtualBox and Ubuntu"
       ]
     },
@@ -163,7 +163,7 @@ const openSource = {
 
 const bigProjects = {
   title: "OpenSource Projects",
-  subtitle: "SOME PROJECTS THAT I ACTIVELY MAINTAIN",
+  subtitle: emoji("I AM DEVELOPING COOL STUFF ⚡ THESE ARE SOME PROJECTS THAT I ACTIVELY MAINTAIN"),
   projects: [
     {
       image: require("./assets/images/Distrinet.png"),
@@ -193,12 +193,12 @@ const achievementSection = {
         { name: "Certification", url: "https://www.youracclaim.com/badges/71e2ce30-2162-487c-9e89-422c4cbeac70" }
       ]
     },
-    {
-      title: "Azure Fundamentals [AZ-900]",
-      subtitle: "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
-      image: require("./assets/images/azure_fundamentals.png"),
-      footerLink: [{ name: "Certification", url: "http://1.1.1.1" }]
-    }
+    //{
+    //  title: "Azure Fundamentals [AZ-900]",
+    //  subtitle: "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+    //  image: require("./assets/images/azure_fundamentals.png"),
+    //  footerLink: [{ name: "Certification", url: "http://1.1.1.1" }]
+    //}
   ]
 };
 
