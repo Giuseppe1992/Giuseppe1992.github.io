@@ -190,15 +190,15 @@ const achievementSection = {
       subtitle: "Individuals who have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on Amazon Web Services.",
       image: require("./assets/images/aws_sol_arch.png"),
       footerLink: [
-        { name: "Certification", url: "https://www.youracclaim.com/badges/71e2ce30-2162-487c-9e89-422c4cbeac70" }
+        { name: "Verification Link", url: "https://www.youracclaim.com/badges/71e2ce30-2162-487c-9e89-422c4cbeac70" }
       ]
     },
-    //{
-    //  title: "Azure Fundamentals [AZ-900]",
-    //  subtitle: "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
-    //  image: require("./assets/images/azure_fundamentals.png"),
-    //  footerLink: [{ name: "Certification", url: "http://1.1.1.1" }]
-    //}
+    {
+      title: "Azure Fundamentals [AZ-900]",
+      subtitle: "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      image: require("./assets/images/azure_fundamentals.png"),
+      footerLink: [{ name: "Verification Link", url: "http://gdilena.io" }]
+    }
   ]
 };
 
