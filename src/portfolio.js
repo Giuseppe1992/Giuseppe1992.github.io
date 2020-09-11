@@ -234,7 +234,7 @@ const achievementSection = {
       title: "Azure Fundamentals [AZ-900]",
       subtitle: "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
       image: require("./assets/images/azure_fundamentals.png"),
-      footerLink: [{ name: "Verification Link", url: "http://gdilena.io" }]
+      footerLink: [{ name: "Verification Link", url: "https://www.youracclaim.com/badges/8740608d-7f3a-403e-9923-f0ca086181aa" }]
     }
   ]
 };
