@@ -132,7 +132,8 @@ const workExperiences = {
       desc: "Internship experience during my Master's degree in Computer Science at University of Nice, Sophia Antipolis (France)",
       descBullets: [
         "Extend OpenStack to provide robust Service Function Chains (SFC)",
-        "Overview classical Scheduling problem and present typical data center architectures. Formalize a model for Scheduling with Communication Problem"
+        "Overview classical Scheduling problem and present typical data center architectures",
+        "Formalize a model for Scheduling with Communication Problem"
       ]
     },
     {
@@ -194,10 +195,16 @@ const achievementSection = {
       ]
     },
     {
-      title: "Azure Fundamentals [AZ-900]",
+      title: "Microsoft Azure Fundamentals [AZ-900]",
       subtitle: "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
       image: require("./assets/images/azure_fundamentals.png"),
       footerLink: [{ name: "Verification Link", url: "https://www.youracclaim.com/badges/8740608d-7f3a-403e-9923-f0ca086181aa" }]
+    },
+    {
+      title: "Hacking & Security: Advanced V6",
+      subtitle: "This is an advanced and practical course. It covers in details all the methodologies used in the context of intrusions into corporate networks.",
+      image: require("./assets/images/sysdream.png"),
+      footerLink: [{ name: "Verification Link", url: "https://portfolio-giuseppe-di-lena.s3.eu-central-1.amazonaws.com/sysdream.pdf" }]
     }
   ]
 };
