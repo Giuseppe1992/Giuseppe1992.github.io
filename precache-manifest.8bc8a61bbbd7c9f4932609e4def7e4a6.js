@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "988db4c115e3577470dd23356a324f4b",
+    "revision": "99dfd276cebc8198d67c4b5c5c52031f",
     "url": "/index.html"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "4421d96bafba29a97f4e",
+    "revision": "d1c27813ac3ad0186ba4",
     "url": "/static/css/main.1063d14f.chunk.css"
   },
   {
-    "revision": "70ef92ff6e4419e0d411",
-    "url": "/static/js/2.a4ce6b17.chunk.js"
+    "revision": "301f1fba78b1844d21b5",
+    "url": "/static/js/2.4e753ef6.chunk.js"
   },
   {
     "revision": "d59dbda7beac534f1a63b826a1869d07",
-    "url": "/static/js/2.a4ce6b17.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4e753ef6.chunk.js.LICENSE.txt"
   },
   {
     "revision": "5eac137c9b56668b5e72",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.fc37d517.chunk.js"
   },
   {
-    "revision": "4421d96bafba29a97f4e",
-    "url": "/static/js/main.6a3ffe66.chunk.js"
+    "revision": "d1c27813ac3ad0186ba4",
+    "url": "/static/js/main.8c8ba585.chunk.js"
   },
   {
     "revision": "45e9bf4efead67aa0a4a",
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/github.bd6fb7a3.svg"
   },
   {
-    "revision": "cbcbe74c23d615170ed783dffecc792f",
-    "url": "/static/media/intecsLogo.cbcbe74c.png"
-  },
-  {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "/static/media/logo.25bf045c.svg"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/static/media/manOnTable.52be3144.svg"
+  },
+  {
+    "revision": "7115ec06abf8f602d7ecbd7f0e5e541d",
+    "url": "/static/media/microsoftLogo.7115ec06.png"
   },
   {
     "revision": "ccc59d235201628bcdab22eb897b0d01",
