@@ -149,6 +149,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Customer Success Manager",
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoftLogo.png"),
+      date: "From April 2021",
+      desc: "In April 2021 I will join Microsoft in Dublin (Ireland)",
+      descBullets: [
+        "Digital Customer Success Manager for Azure cloud services",
+        //"I will work mainly for the UK market"
+      ]
+    },
+    {
       role: "Research Engineer - Ph.D. Candidate",
       company: "Orange Labs",
       companylogo: require("./assets/images/orangeLogo.jpg"),
@@ -171,18 +182,7 @@ const workExperiences = {
         "Overview classical Scheduling problem and present typical data center architectures",
         "Formalize a model for Scheduling with Communication Problem"
       ]
-    },
-    {
-      role: "Intern",
-      company: "Intecs",
-      companylogo: require("./assets/images/intecsLogo.png"),
-      date: "Aug 2014 – Sep 2014",
-      desc: "First internship experience during my Bachelor's degree in Computer Science at University of L'Aquila (Italy)",
-      descBullets: [
-        "Study and installation of a cloud infrastructure with OpenStack",
-        "Configuration of OpenStack in a testing environment with VirtualBox and Ubuntu"
-      ]
-    },
+    }
   ]
 };
 
