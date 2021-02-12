@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99dfd276cebc8198d67c4b5c5c52031f",
+    "revision": "3a21d76463c523cdf02f1fd8c74f67c0",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "d1c27813ac3ad0186ba4",
+    "revision": "570e1e386393d7726dd5",
     "url": "/static/css/main.1063d14f.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.fc37d517.chunk.js"
   },
   {
-    "revision": "d1c27813ac3ad0186ba4",
-    "url": "/static/js/main.8c8ba585.chunk.js"
+    "revision": "570e1e386393d7726dd5",
+    "url": "/static/js/main.7fb5e2a2.chunk.js"
   },
   {
     "revision": "45e9bf4efead67aa0a4a",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
-    "revision": "7115ec06abf8f602d7ecbd7f0e5e541d",
-    "url": "/static/media/microsoftLogo.7115ec06.png"
+    "revision": "72824495364097a19063f94113816b58",
+    "url": "/static/media/microsoftLogo1.72824495.png"
   },
   {
     "revision": "ccc59d235201628bcdab22eb897b0d01",

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1063d14f.chunk.css",
-    "main.js": "/static/js/main.8c8ba585.chunk.js",
-    "main.js.map": "/static/js/main.8c8ba585.chunk.js.map",
+    "main.js": "/static/js/main.7fb5e2a2.chunk.js",
+    "main.js.map": "/static/js/main.7fb5e2a2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ebbb98e9.js",
     "runtime-main.js.map": "/static/js/runtime-main.ebbb98e9.js.map",
     "static/js/2.4e753ef6.chunk.js": "/static/js/2.4e753ef6.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.fc37d517.chunk.js": "/static/js/4.fc37d517.chunk.js",
     "static/js/4.fc37d517.chunk.js.map": "/static/js/4.fc37d517.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8bc8a61bbbd7c9f4932609e4def7e4a6.js": "/precache-manifest.8bc8a61bbbd7c9f4932609e4def7e4a6.js",
+    "precache-manifest.27b7b56934f042c2348dc78acf22652e.js": "/precache-manifest.27b7b56934f042c2348dc78acf22652e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.879e9400.chunk.css.map": "/static/css/3.879e9400.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/static/css/4.54df59d4.chunk.css.map",
@@ -29,7 +29,7 @@
     "static/media/github.svg": "/static/media/github.bd6fb7a3.svg",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
-    "static/media/microsoftLogo.png": "/static/media/microsoftLogo.7115ec06.png",
+    "static/media/microsoftLogo1.png": "/static/media/microsoftLogo1.72824495.png",
     "static/media/orangeLogo.jpg": "/static/media/orangeLogo.ccc59d23.jpg",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/sysdream.png": "/static/media/sysdream.1036361b.png",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.ebbb98e9.js",
     "static/js/2.4e753ef6.chunk.js",
     "static/css/main.1063d14f.chunk.css",
-    "static/js/main.8c8ba585.chunk.js"
+    "static/js/main.7fb5e2a2.chunk.js"
   ]
 }
