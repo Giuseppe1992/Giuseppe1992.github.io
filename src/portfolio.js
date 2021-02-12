@@ -151,9 +151,9 @@ const workExperiences = {
     {
       role: "Customer Success Manager",
       company: "Microsoft",
-      companylogo: require("./assets/images/microsoftLogo.png"),
+      companylogo: require("./assets/images/microsoftLogo1.png"),
       date: "From April 2021",
-      desc: "In April 2021 I will join Microsoft in Dublin (Ireland)",
+      desc: "In April 2021 I will join Microsoft - Dublin (Ireland)",
       descBullets: [
         "Digital Customer Success Manager for Azure cloud services",
         //"I will work mainly for the UK market"
