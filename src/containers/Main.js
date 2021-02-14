@@ -58,10 +58,10 @@ export default class Main extends Component {
           </CookieConsent>
           <Header />
           <Greeting />
-          <Skills />
-          <StackProgress />
-          <Education />
           <WorkExperience />
+          <StackProgress />
+          <Skills />
+          <Education />
           <Projects />
           <StartupProject />
           <Achievement />

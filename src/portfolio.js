@@ -63,10 +63,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "Google Cloud",
-      fontAwesomeClassname: "fab fa-google-drive"
-    },
-    {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
@@ -86,10 +82,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Github",
       fontAwesomeClassname: "fab fa-github"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    }
+    //{
+    //  skillName: "sql-database",
+  //  fontAwesomeClassname: "fas fa-database"
+    //}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -100,24 +96,48 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "University of Nice Sophia Antipolis, France",
+      logo: require("./assets/images/Nice.png"),
+      subHeader: "Ph.D. in Computer Science",
+      duration: "March 2021",
+      desc: "CIFRE in collaboration with Inria Sophia Antipolis and Orange Labs",
+      //descBullets: [
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of L'Aquila, Italy",
+      logo: require("./assets/images/Univaq.png"),
+      subHeader: "Master in Computer Science",
+      duration: "March 2018",
+      desc: "NEDAS: Network and Data Science",
+      //descBullets: [
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
+    },
+    {
+      schoolName: "University of Nice Sophia Antipolis, France",
+      logo: require("./assets/images/Nice.png"),
+      subHeader: "Master degree in Computer Science",
+      duration: "August 2017",
+      desc: "UBINET: Ubiquitous Networking and Computing",
+      //descBullets: [
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
+    },
+    {
+      schoolName: "University of L'Aquila, Italy",
+      logo: require("./assets/images/Univaq.png"),
+      subHeader: "Bachelor degree in Computer Science",
+      duration: "September 2015",
+      //desc: "Network and Data Science",
+      //descBullets: [
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
     }
   ]
 };
@@ -125,7 +145,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Programming",  //Insert stack or technology you have experience in
@@ -168,7 +188,7 @@ const workExperiences = {
       descBullets: [
         "Created Distrinet, a distributed emulator for NFV and SDN networks",
         "Developed resilience methodologies for NFV and SDN environment in 5G networks, able to reduce resource consumptions by up to 40%",
-        "Created CloudMeasurement, a simple CLI orchestrator for network experiments (Iperf, Traceroute, etc.) for cloud environments"
+        //"Created CloudMeasurement, a simple CLI orchestrator for network experiments (Iperf, Traceroute, etc.) for cloud environments"
       ]
     },
     {
@@ -192,8 +212,8 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "Giuseppe1992", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile :"true", // Set true or false to show Contact profile using Github, defaults to false
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -211,17 +231,17 @@ const bigProjects = {
       image: require("./assets/images/cm.png"),
       link: "https://github.com/Giuseppe1992/CloudMeasurement/blob/master/README.md"
     }
-  ]
+  ],
+  display: false // Set false to hide this section, defaults to true
+
 };
 
 // Achievement Section
 // Include certificates, talks etc
-
 const achievementSection = {
 
   title: emoji("Professional Certifications 🏆 "),
   subtitle: "Certifications and Courses that I have done!",
-
   achivementsCards: [
     {
       title: "AWS Certified Solution Architect - Associate [SAA-C02]",
@@ -243,7 +263,8 @@ const achievementSection = {
       image: require("./assets/images/sysdream.png"),
       footerLink: [{ name: "Verification Link", url: "https://portfolio-giuseppe-di-lena.s3.eu-central-1.amazonaws.com/sysdream.pdf" }]
     }
-  ]
+  ],
+  display: false
 };
 
 // Blogs Section
@@ -265,7 +286,7 @@ const blogSection = {
       description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -294,7 +315,7 @@ const talkSection = {
       event_url: "https://cloudnet2019.ieee-cloudnet.org"
     }
     ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -304,13 +325,14 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"],
+  display: false // Set true to display this section, defaults to false
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️ +33 (0)786376988"),
-  subtitle: emoji("Discuss a project or just want to say hi? ☎️ +33 (0)786376988"),
-  number: "+33-(0)786376988",
+  title: emoji("Contact Me ☎️"),
+  //subtitle: emoji("Discuss a project or just want to say hi? ☎️ +33 (0)786376988"),
+  number: "+33-(0)786 37 69 88",
   email_address: "giuseppedilena92@gmail.com"
 };
 
@@ -318,7 +340,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
