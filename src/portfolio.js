@@ -132,12 +132,7 @@ const educationInfo = {
       schoolName: "University of L'Aquila, Italy",
       logo: require("./assets/images/Univaq.png"),
       subHeader: "Bachelor degree in Computer Science",
-      duration: "September 2015",
-      //desc: "Network and Data Science",
-      //descBullets: [
-      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      //]
+      duration: "September 2015"
     }
   ]
 };
