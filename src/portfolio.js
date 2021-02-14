@@ -109,7 +109,7 @@ const educationInfo = {
     {
       schoolName: "University of L'Aquila, Italy",
       logo: require("./assets/images/Univaq.png"),
-      subHeader: "Master in Computer Science",
+      subHeader: "Master's in Computer Science",
       duration: "March 2018",
       desc: "NEDAS: Network and Data Science",
       //descBullets: [
@@ -120,7 +120,7 @@ const educationInfo = {
     {
       schoolName: "University of Nice Sophia Antipolis, France",
       logo: require("./assets/images/Nice.png"),
-      subHeader: "Master degree in Computer Science",
+      subHeader: "Master's degree in Computer Science",
       duration: "August 2017",
       desc: "UBINET: Ubiquitous Networking and Computing",
       //descBullets: [
@@ -131,7 +131,7 @@ const educationInfo = {
     {
       schoolName: "University of L'Aquila, Italy",
       logo: require("./assets/images/Univaq.png"),
-      subHeader: "Bachelor degree in Computer Science",
+      subHeader: "Bachelor's degree in Computer Science",
       duration: "September 2015"
     }
   ]
@@ -208,7 +208,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "Giuseppe1992", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true", // Set true or false to show Contact profile using Github, defaults to false
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -233,34 +233,53 @@ const bigProjects = {
 
 // Achievement Section
 // Include certificates, talks etc
-const achievementSection = {
 
+const achievementSection = {
   title: emoji("Professional Certifications 🏆 "),
-  subtitle: "Certifications and Courses that I have done!",
-  achivementsCards: [
+  subtitle:
+    "Certifications and Courses that I have done!",
+
+  achievementsCards: [
     {
       title: "AWS Certified Solution Architect - Associate [SAA-C02]",
-      subtitle: "Individuals who have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on Amazon Web Services.",
+      subtitle:
+        "Individuals who have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on Amazon Web Services.",
       image: require("./assets/images/aws_sol_arch.png"),
       footerLink: [
-        { name: "Verification Link", url: "https://www.youracclaim.com/badges/71e2ce30-2162-487c-9e89-422c4cbeac70" }
+        {
+          name: "Verification Link",
+          url:
+            "https://www.youracclaim.com/badges/71e2ce30-2162-487c-9e89-422c4cbeac70"
+        }
       ]
     },
     {
       title: "Microsoft Azure Fundamentals [AZ-900]",
-      subtitle: "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      subtitle:
+        "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
       image: require("./assets/images/azure_fundamentals.png"),
-      footerLink: [{ name: "Verification Link", url: "https://www.youracclaim.com/badges/8740608d-7f3a-403e-9923-f0ca086181aa" }]
+      footerLink: [
+        {
+          name: "Verification Link",
+          url:
+            "https://www.youracclaim.com/badges/8740608d-7f3a-403e-9923-f0ca086181aa"
+        }
+      ]
     },
+
     {
       title: "Hacking & Security: Advanced V6",
       subtitle: "This is an advanced and practical course. It covers in details all the methodologies used in the context of intrusions into corporate networks.",
       image: require("./assets/images/sysdream.png"),
-      footerLink: [{ name: "Verification Link", url: "https://portfolio-giuseppe-di-lena.s3.eu-central-1.amazonaws.com/sysdream.pdf" }]
+      footerLink: [
+        {name: "Verification Link", url: "https://portfolio-giuseppe-di-lena.s3.eu-central-1.amazonaws.com/sysdream.pdf"}
+      ]
     }
   ],
-  display: false
+  display: true // Set false to hide this section, defaults to true
 };
+
+
 
 // Blogs Section
 
@@ -328,7 +347,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   //subtitle: emoji("Discuss a project or just want to say hi? ☎️ +33 (0)786376988"),
   number: "+33-(0)786 37 69 88",
-  email_address: "giuseppedilena92@gmail.com"
+  email_address: "giuseppedilena92@gmail.com",
 };
 
 // Twitter Section

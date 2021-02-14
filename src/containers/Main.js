@@ -61,10 +61,10 @@ export default class Main extends Component {
           <WorkExperience />
           <StackProgress />
           <Skills />
-          <Education />
+          <Achievement />
           <Projects />
           <StartupProject />
-          <Achievement />
+          <Education />
           <Blogs />
           <Talks />
           <Twitter />
