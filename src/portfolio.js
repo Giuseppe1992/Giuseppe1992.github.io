@@ -285,25 +285,40 @@ const achievementSection = {
 
 const blogSection = {
 
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
+  title: "Publications",
+  subtitle: "INTERNATIONAL PAPERS, JOURNALS AND DEMOS",
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://ieeexplore.ieee.org/document/9064126",
+      title: "Bandwidth optimal Failure Recovery Scheme for Robust Programmable Networks.",
+      description: "IEEE International Conference on Cloud Networking, Coimbra (CLOUDNET), Portugal, 2019"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://ieeexplore.ieee.org/document/9064129",
+      title: "Mininet on steroids: exploiting the cloud for Mininet performance.",
+      description: "IEEE International Conference on Cloud Networking, Coimbra (CLOUDNET), Portugal, 2019"
+    },
+    {
+      url: "https://hal.inria.fr/hal-02359695/document",
+      title: "Demo Proposal - Distrinet: a Mininet implementation for the Cloud",
+      description: "Proceedings of the 15th International Conference on emerging Networking EXperiments and Technologies (CONEXT), 2019"
+    },
+    {
+      url: "https://hal.inria.fr/hal-02359695/document",
+      title: "A Right Placement Makes a Happy Emulator: a Placement Module for Distributed SDN/NFV Emulation",
+      description: "IEEE International Conference on Communications (ICC), 2021"
+    },
+    {
+      url: "https://hal.inria.fr/hal-03000617/document",
+      title: "Distrinet: a Mininet Implementation for the Cloud",
+      description: "ACM SIGCOMM Computer Communication Review (CCR), 2021"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
+
 
 const talkSection = {
   title: "Publications",
