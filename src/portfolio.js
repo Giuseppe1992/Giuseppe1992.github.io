@@ -109,7 +109,7 @@ const educationInfo = {
     {
       schoolName: "University of L'Aquila, Italy",
       logo: require("./assets/images/Univaq.png"),
-      subHeader: "Master's in Computer Science",
+      subHeader: "Master's degree in Computer Science",
       duration: "March 2018",
       desc: "NEDAS: Network and Data Science",
       //descBullets: [
@@ -164,13 +164,13 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Customer Success Manager",
+      role: "Digital Customer Success Specialist",
       company: "Microsoft",
       companylogo: require("./assets/images/microsoftLogo1.png"),
-      date: "From April 2021",
-      desc: "In April 2021 I will join Microsoft - Dublin (Ireland)",
+      date: "April 2021 - Now",
+      desc: "Microsoft - Dublin (Ireland)",
       descBullets: [
-        "Digital Customer Success Manager for Azure cloud services",
+        "Digital Customer Success Specialist for Azure services",
         //"I will work mainly for the UK market"
       ]
     },
