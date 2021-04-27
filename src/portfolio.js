@@ -13,7 +13,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: " Giuseppe Di Lena",
   title: "Hi all, I'm Giuseppe",
-  subTitle: emoji("Ph.D. | Digital Customer Success Specialist working at Microsoft Ireland"),
+  subTitle: emoji("Ph.D. | Customer Success Manager working at Microsoft Ireland"),
   resumeLink: "https://portfolio-giuseppe-di-lena.s3.eu-central-1.amazonaws.com/Giuseppe+Di+Lena+CV2.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 
@@ -164,13 +164,13 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Digital Customer Success Specialist",
+      role: "Customer Success Manager",
       company: "Microsoft",
       companylogo: require("./assets/images/microsoftLogo1.png"),
       date: "April 2021 - Now",
       desc: "Microsoft - Dublin (Ireland)",
       descBullets: [
-        "Digital Customer Success Specialist for Azure services",
+        "Customer Success Manager - tech pod for Azure cloud services",
         //"I will work mainly for the UK market"
       ]
     },
