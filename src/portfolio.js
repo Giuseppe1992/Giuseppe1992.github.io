@@ -14,7 +14,7 @@ const greeting = {
   username: " Giuseppe Di Lena",
   title: "Hi all, I'm Giuseppe",
   subTitle: emoji("Ph.D. | Customer Success Manager working at Microsoft Ireland"),
-  resumeLink: "https://portfolio-giuseppe-di-lena.s3.eu-central-1.amazonaws.com/Giuseppe+Di+Lena+CV2.pdf",
+  resumeLink: "https://gdilena.blob.core.windows.net/portfolio/GiuseppeDiLenaCV.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 
 };
