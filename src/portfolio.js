@@ -27,10 +27,10 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/giuseppe-di-lena-81a3b8106/",
   stackoverflow: "https://stackoverflow.com/story/giuseppe1992",
   gmail: "giuseppedilena92@gmail.com",
-  //gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/di.lena.giuseppe/",
-  //medium: "https://medium.com/@saadpasta",
-  instagram: "https://www.instagram.com/giusepped1992/",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/di.lena.giuseppe/",
+  // medium: "https://medium.com/@saadpasta",
+  // instagram: "https://www.instagram.com/giusepped1992/",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -164,13 +164,13 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Customer Success Manager",
+      role: "Customer Success Manager - Technical Pod",
       company: "Microsoft",
       companylogo: require("./assets/images/microsoftLogo1.png"),
       date: "April 2021 - Now",
       desc: "Microsoft - Dublin (Ireland)",
       descBullets: [
-        "Customer Success Manager - tech pod for Azure cloud services",
+        "Azure applications and infrastructure",
         //"I will work mainly for the UK market"
       ]
     },
@@ -361,7 +361,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   //subtitle: emoji("Discuss a project or just want to say hi? ☎️ +33 (0)786376988"),
-  number: "+33-(0)786 37 69 88",
+  number: "+39-333 29 02 588",
   email_address: "giuseppedilena92@gmail.com",
 };
 
