@@ -253,20 +253,32 @@ const achievementSection = {
         }
       ]
     },
+    //{
+    //  title: "Azure Fundamentals [AZ-900]",
+    //  subtitle:
+    //    "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+     // image: require("./assets/images/azure_fundamentals.png"),
+    //  footerLink: [
+    //    {
+    //      name: "Verification Link",
+    //      url:
+    //        "https://www.youracclaim.com/badges/8740608d-7f3a-403e-9923-f0ca086181aa"
+    //    }
+    //  ]
+    //},
     {
-      title: "Microsoft Azure Fundamentals [AZ-900]",
+      title: "Azure Administrator Associate [AZ-104]",
       subtitle:
-        "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
-      image: require("./assets/images/azure_fundamentals.png"),
+        "Individuals who have deep understanding of each implementing, managing, and monitoring identity, governance, storage, compute, and virtual networks in Microsoft Azure.",
+      image: require("./assets/images/azure_associate.png"),
       footerLink: [
         {
           name: "Verification Link",
           url:
-            "https://www.youracclaim.com/badges/8740608d-7f3a-403e-9923-f0ca086181aa"
+            "https://www.credly.com/badges/b9057021-0440-41d2-a2df-efe68fbad1f4?source=linked_in_profile"
         }
       ]
     },
-
     {
       title: "Hacking & Security: Advanced V6",
       subtitle: "This is an advanced and practical course. It covers in details all the methodologies used in the context of intrusions into corporate networks.",
