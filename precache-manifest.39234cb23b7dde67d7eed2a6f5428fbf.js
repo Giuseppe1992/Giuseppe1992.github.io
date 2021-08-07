@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "720f3935af9f3963954b178855be3f7d",
+    "revision": "f9da6ec9a0941bd673e8136ae44b301f",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "32c05aab3bfb567927dc",
+    "revision": "c3b4f510d97c9004e104",
     "url": "/static/css/main.985aa6cb.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.cc0aa662.chunk.js"
   },
   {
-    "revision": "32c05aab3bfb567927dc",
-    "url": "/static/js/main.78a8a0fb.chunk.js"
+    "revision": "c3b4f510d97c9004e104",
+    "url": "/static/js/main.75b9ad15.chunk.js"
   },
   {
     "revision": "a2db39109b792b730881",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Univaq.e22c0e62.png"
   },
   {
-    "revision": "c5a04932ec7e6697919f21f744341760",
-    "url": "/static/media/azure_fundamentals.c5a04932.png"
+    "revision": "c2c387214261c8bb0dc1330cdd59efb0",
+    "url": "/static/media/azure_associate.c2c38721.png"
   },
   {
     "revision": "6a413df72df2894bcb5d7f797f26818e",
