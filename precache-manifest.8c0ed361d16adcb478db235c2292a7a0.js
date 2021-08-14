@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9da6ec9a0941bd673e8136ae44b301f",
+    "revision": "a87ca248ed65ee674088b431571764df",
     "url": "/index.html"
   },
   {
-    "revision": "8ab5a5ebcab4ab9a80de",
+    "revision": "0de0a35a655a7a635c0b",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "82cc565c88f715981c72",
+    "revision": "7d391f8469698293c30e",
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "c3b4f510d97c9004e104",
+    "revision": "f6385709564465fb2029",
     "url": "/static/css/main.985aa6cb.chunk.css"
   },
   {
-    "revision": "0e6e43a9cd00aacf44f0",
-    "url": "/static/js/2.0f3957a6.chunk.js"
+    "revision": "0b87cd5c422156562ebf",
+    "url": "/static/js/2.63543749.chunk.js"
   },
   {
     "revision": "88f91b02e165b55bac178e1fd6ad8877",
-    "url": "/static/js/2.0f3957a6.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.63543749.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8ab5a5ebcab4ab9a80de",
-    "url": "/static/js/3.676f5e0b.chunk.js"
+    "revision": "0de0a35a655a7a635c0b",
+    "url": "/static/js/3.bc5e739b.chunk.js"
   },
   {
-    "revision": "82cc565c88f715981c72",
-    "url": "/static/js/4.cc0aa662.chunk.js"
+    "revision": "7d391f8469698293c30e",
+    "url": "/static/js/4.212a422f.chunk.js"
   },
   {
-    "revision": "c3b4f510d97c9004e104",
-    "url": "/static/js/main.75b9ad15.chunk.js"
+    "revision": "f6385709564465fb2029",
+    "url": "/static/js/main.a419a93b.chunk.js"
   },
   {
-    "revision": "a2db39109b792b730881",
-    "url": "/static/js/runtime-main.5506e626.js"
+    "revision": "718f96a3f85f94a16b0c",
+    "url": "/static/js/runtime-main.cd0801ce.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -56,12 +56,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Nice.44c05059.png"
   },
   {
+    "revision": "89c89e15c187b29ec636af27d9da4624",
+    "url": "/static/media/SC900.89c89e15.png"
+  },
+  {
     "revision": "e22c0e62de440784627a62f04739059e",
     "url": "/static/media/Univaq.e22c0e62.png"
   },
   {
     "revision": "c2c387214261c8bb0dc1330cdd59efb0",
     "url": "/static/media/azure_associate.c2c38721.png"
+  },
+  {
+    "revision": "c5a04932ec7e6697919f21f744341760",
+    "url": "/static/media/azure_fundamentals.c5a04932.png"
   },
   {
     "revision": "6a413df72df2894bcb5d7f797f26818e",
