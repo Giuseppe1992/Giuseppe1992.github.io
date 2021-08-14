@@ -253,21 +253,8 @@ const achievementSection = {
         }
       ]
     },
-    //{
-    //  title: "Azure Fundamentals [AZ-900]",
-    //  subtitle:
-    //    "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
-     // image: require("./assets/images/azure_fundamentals.png"),
-    //  footerLink: [
-    //    {
-    //      name: "Verification Link",
-    //      url:
-    //        "https://www.youracclaim.com/badges/8740608d-7f3a-403e-9923-f0ca086181aa"
-    //    }
-    //  ]
-    //},
     {
-      title: "Azure Administrator Associate [AZ-104]",
+      title: "Microsoft Certified: Azure Administrator Associate [AZ-104]",
       subtitle:
         "Individuals who have deep understanding of each implementing, managing, and monitoring identity, governance, storage, compute, and virtual networks in Microsoft Azure.",
       image: require("./assets/images/azure_associate.png"),
@@ -286,7 +273,31 @@ const achievementSection = {
       footerLink: [
         {name: "Verification Link", url: "https://portfolio-giuseppe-di-lena.s3.eu-central-1.amazonaws.com/sysdream.pdf"}
       ]
-    }
+    },
+  {
+    title: "Microsoft Certified: Azure Fundamentals [AZ-900]",
+    subtitle: "Individuals who have foundational knowledge of cloud services and how those services are provided with Microsoft Azure.",
+    image: require("./assets/images/azure_fundamentals.png"),
+      footerLink: [
+        {
+          name: "Verification Link",
+          url:
+            "https://www.youracclaim.com/badges/8740608d-7f3a-403e-9923-f0ca086181aa"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Certified: Security, Compliance, and Identity Fundamentals [SC-900]",
+      subtitle: "Individuals who have foundational knowledge of with Microsoft Azure and Microsoft 365 and understand how Microsoft security, compliance, and identity solutions can span across different solution areas",
+      image: require("./assets/images/SC900.png"),
+        footerLink: [
+          {
+            name: "Verification Link",
+            url:
+              "https://www.credly.com/badges/f4f9b4df-395d-4375-87b5-95b9eedc2973"
+          }
+        ]
+      }
   ],
   display: true // Set false to hide this section, defaults to true
 };
