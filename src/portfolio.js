@@ -3,6 +3,10 @@
 
 // Your Summary And Greeting Section
 
+// TO RUN THE CONTAINER
+//sudo docker build -t developerfolio:latest . 
+//sudo docker run -itd -p 80:3000 developerfolio:latest 
+
 import emoji from "react-easy-emoji";
 
 const illustration = {
@@ -24,9 +28,10 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/Giuseppe1992",
-  linkedin: "https://www.linkedin.com/in/giuseppe-di-lena-81a3b8106/",
+  linkedin: "https://www.linkedin.com/in/giuseppe-di-lena-ph-d-81a3b8106/",
   stackoverflow: "https://stackoverflow.com/story/giuseppe1992",
   gmail: "giuseppedilena92@gmail.com",
+  tryhackme: "https://tryhackme.com/p/Giuseppe1992",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/di.lena.giuseppe/",
   // medium: "https://medium.com/@saadpasta",
@@ -170,7 +175,9 @@ const workExperiences = {
       date: "April 2021 - Now",
       desc: "Microsoft - Dublin (Ireland)",
       descBullets: [
-        "Azure applications and infrastructure",
+        "Specialized in Networking, Linux and containerization technologies",
+        "Managing a portfolio with 50+ customers in UK region",
+        "Helping companies to follow the best practices, architecting secure and efficient Azure infrastructures."
         //"I will work mainly for the UK market"
       ]
     },

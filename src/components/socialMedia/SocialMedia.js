@@ -44,6 +44,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+{socialMediaLinks.tryhackme ? (
+        <a
+          href={socialMediaLinks.tryhackme}
+          className="icon-button tryhackme"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-user-secret"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.gitlab ? (
         <a
           href={socialMediaLinks.gitlab}
