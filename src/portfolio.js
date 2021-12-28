@@ -250,7 +250,7 @@ const achievementSection = {
     {
       title: "Microsoft Certified: Azure Solution Architect Expert",
       subtitle:
-        "Individuals who advanced experience and knowledge across IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platform, budgeting, and governance.",
+        "Individuals who have advanced experience and knowledge across IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platform, budgeting, and governance.",
       image: require("./assets/images/azureArchitect.png"),
       footerLink: [
         {
