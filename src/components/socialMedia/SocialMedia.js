@@ -51,7 +51,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-user-secret"></i>
+          <script src="https://tryhackme.com/badge/178944"></script>
           <span></span>
         </a>
       ) : null}

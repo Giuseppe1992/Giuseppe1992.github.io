@@ -248,6 +248,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Microsoft Certified: Azure Solution Architect Expert",
+      subtitle:
+        "Individuals who advanced experience and knowledge across IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platform, budgeting, and governance.",
+      image: require("./assets/images/azureArchitect.png"),
+      footerLink: [
+        {
+          name: "Verification Link",
+          url:
+            "https://www.credly.com/badges/674a5e8c-9f3b-448a-b05a-6de10615d84c/public_url"
+        }
+      ]
+    },
+    {
       title: "AWS Certified Solution Architect - Associate [SAA-C02]",
       subtitle:
         "Individuals who have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on Amazon Web Services.",
