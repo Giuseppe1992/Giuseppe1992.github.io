@@ -24,7 +24,6 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm audit fix --force
           npm run build --if-present
           npm run test --if-present
 
@@ -53,5 +52,5 @@ jobs:
         with:
           app-name: 'gdilena'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_057B76D1D6684A4399CE9142559A8ABB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_579B8E8C345E4C3E849DA5542F38C1C6 }}
           package: .
