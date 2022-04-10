@@ -32,14 +32,12 @@ stages:
     steps:
     - task: NodeTool@0
       inputs:
-        versionSpec: '10.x'
+        versionSpec: '12.15'
       displayName: 'Install Node.js'
 
     - script: |
         npm install
-        npm audit fix --force
         npm run build --if-present
-        npm run test --if-present
       displayName: 'npm install, build and test'
 
     - task: ArchiveFiles@2
