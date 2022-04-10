@@ -36,7 +36,9 @@ stages:
       displayName: 'Install Node.js'
 
     - script: |
+        npm config set unsafe-perm true
         npm install
+        npm audit fix --force
         npm run build --if-present
       displayName: 'npm install, build and test'
 
@@ -74,4 +76,4 @@ stages:
               appName: $(webAppName)
               runtimeStack: 'NODE|10.10'
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
-              startUpCommand: 'PORT=8080; npm run start'
+              startUpCommand: 'npm run start'
