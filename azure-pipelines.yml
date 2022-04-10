@@ -67,6 +67,7 @@ stages:
               StartupCommand: 'npm run start'
               ScriptType: 'Inline Script'
               InlineScript: |
+                PORT=8080
                 npm install
                 npm audit fix
                 npm run build --if-present
