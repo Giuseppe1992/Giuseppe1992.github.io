@@ -17,7 +17,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: " Giuseppe Di Lena",
   title: "Hi all, I'm Giuseppe",
-  subTitle: emoji("Ph.D. | Customer Success Manager working at Microsoft Ireland"),
+  subTitle: emoji("Ph.D. | Software Engineer II @ Microsoft"),
   resumeLink: "https://gdilena.blob.core.windows.net/portfolio/GiuseppeDiLenaCV.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 
@@ -29,7 +29,7 @@ const socialMediaLinks = {
 
   github: "https://github.com/Giuseppe1992",
   linkedin: "https://www.linkedin.com/in/giuseppe-di-lena-ph-d-81a3b8106/",
-  stackoverflow: "https://stackoverflow.com/story/giuseppe1992",
+  stackoverflow: "https://stackoverflow.com/users/9858192/giuseppe",
   gmail: "giuseppedilena92@gmail.com",
   tryhackme: "https://tryhackme.com/p/Giuseppe1992",
   // gitlab: "https://gitlab.com/saadpasta",
@@ -169,10 +169,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer 2",
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoftLogo1.png"),
+      date: "March 2022 - Now",
+      desc: "Microsoft - Dublin (Ireland)",
+      descBullets: [
+        "I am part of the One Engineering System (1ES) SRE Team",
+        
+        //"I will work mainly for the UK market"
+      ]
+    },
+    {
       role: "Customer Success Manager - Technical Pod",
       company: "Microsoft",
       companylogo: require("./assets/images/microsoftLogo1.png"),
-      date: "April 2021 - Now",
+      date: "April 2021 - March 2022",
       desc: "Microsoft - Dublin (Ireland)",
       descBullets: [
         "Specialized in Networking, Linux and containerization technologies",
@@ -186,23 +198,12 @@ const workExperiences = {
       company: "Orange Labs",
       companylogo: require("./assets/images/orangeLogo.jpg"),
       date: "April 2018 – March 2021",
-      desc: "The objective is to develop a resilience methodology in an NFV and SDN environment linking theoretical results to industrial implementation.",
+      desc: "Orange Labs - Lannion (France)",
       descBullets: [
+        //"Proposed resilience methodologies in an NFV and SDN environment linking theoretical results to industrial implementation.",
         "Created Distrinet, a distributed emulator for NFV and SDN networks",
         "Developed resilience methodologies for NFV and SDN environment in 5G networks, able to reduce resource consumptions by up to 40%",
         //"Created CloudMeasurement, a simple CLI orchestrator for network experiments (Iperf, Traceroute, etc.) for cloud environments"
-      ]
-    },
-    {
-      role: "Intern",
-      company: "Inria",
-      companylogo: require("./assets/images/inriaLogo.jpeg"),
-      date: "Dec 2016 – Aug 2017",
-      desc: "Internship experience during my Master's degree in Computer Science at University of Nice, Sophia Antipolis (France)",
-      descBullets: [
-        "Extend OpenStack to provide robust Service Function Chains (SFC)",
-        "Overview classical Scheduling problem and present typical data center architectures",
-        "Formalize a model for Scheduling with Communication Problem"
       ]
     }
   ]
