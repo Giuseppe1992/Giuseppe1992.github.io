@@ -10,10 +10,9 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: 'Secondary Visual Studio Enterprise Subscription(f508638a-affe-4a52-b795-62566e1139d0)'
+    scriptType: 'ps'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'Restart-AzVM -ResourceGroupName $env: ResourceGroupName -Name $env:VirtualMachineName'
