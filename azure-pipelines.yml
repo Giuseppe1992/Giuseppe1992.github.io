@@ -13,6 +13,6 @@ steps:
 - task: AzureCLI@2
   inputs:
     azureSubscription: 'Secondary Visual Studio Enterprise Subscription(f508638a-affe-4a52-b795-62566e1139d0)'
-    scriptType: 'ps'
+    scriptType: 'batch'
     scriptLocation: 'inlineScript'
-    inlineScript: 'Restart-AzVM -ResourceGroupName $env: ResourceGroupName -Name $env:VirtualMachineName'
+    inlineScript: 'Restart-AzVM -ResourceGroupName $(ResourceGroupName) -Name $(VirtualMachineName)'
