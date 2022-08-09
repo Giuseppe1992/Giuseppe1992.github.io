@@ -13,6 +13,6 @@ steps:
 - task: AzureCLI@2
   inputs:
     azureSubscription: 'Secondary Visual Studio Enterprise Subscription(f508638a-affe-4a52-b795-62566e1139d0)'
-    scriptType: 'batch'
+    scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    inlineScript: 'Restart-AzVM -ResourceGroupName $(ResourceGroupName) -Name $(VirtualMachineName)'
+    inlineScript: 'az vm restart --resource-group $(ResourceGroupName) --name $(VirtualMachineName) --force'
