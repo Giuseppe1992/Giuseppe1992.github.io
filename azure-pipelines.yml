@@ -12,7 +12,7 @@ pool:
 steps:
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'Secondary Visual Studio Enterprise Subscription(f508638a-affe-4a52-b795-62566e1139d0)'
+    azureSubscription: '$(AzureSubscription)'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: 'az vm restart --resource-group $(ResourceGroupName) --name $(VirtualMachineName) --force'
