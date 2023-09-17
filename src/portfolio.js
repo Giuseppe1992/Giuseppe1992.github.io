@@ -175,9 +175,9 @@ const workExperiences = {
       date: "March 2022 - Now",
       desc: "Microsoft - Dublin (Ireland)",
       descBullets: [
-        "I am part of the One Engineering System (1ES) SRE Team",
-        
-        //"I will work mainly for the UK market"
+        "Implement, design and maintain the internal DevBox network infrastructure for all Microsoft SWE teams.",
+        "Ensure that engineering tools and infrastructure comply with ServiceLevel Agreements (SLAs). Monitoring system performance, identifying potential issues, and taking proactive steps to minimize disruptions.",
+        "Conduct regular code reviews, testing and debugging of engineering tools to maintain high quality standards."
       ]
     },
     {
