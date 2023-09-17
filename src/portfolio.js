@@ -288,6 +288,32 @@ const achievementSection = {
       ]
     },
     {
+      title: "Microsoft Certified: Azure Security Engineer [AZ-500]",
+      subtitle:
+        "Individuals who implement, manage, and monitor security for resources and identities in Azure, multi-cloud, and hybrid environments.",
+      image: require("./assets/images/azure-security.png"),
+      footerLink: [
+        {
+          name: "Verification Link",
+          url:
+            "https://learn.microsoft.com/en-gb/users/giuseppedilena/credentials/b9a88a56c8174571"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Certified: Azure Network Engineer [AZ-700]",
+      subtitle:
+        "Individuals who have expertise in planning, implementing, and managing Azure networking solutions, including: Core network infrastructure, Hybrid connectivity, Application delivery services, Private access to Azure services and Network security.",
+      image: require("./assets/images/azure-network.png"),
+      footerLink: [
+        {
+          name: "Verification Link",
+          url:
+            "https://www.credly.com/badges/a5ac7d89-c3c3-448f-a1fe-fba39e080bde/public_url"
+        }
+      ]
+    },
+    {
       title: "Hacking & Security: Advanced V6",
       subtitle: "This is an advanced and practical course. It covers in details all the methodologies used in the context of intrusions into corporate networks.",
       image: require("./assets/images/sysdream.png"),
